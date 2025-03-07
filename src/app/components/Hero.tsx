@@ -19,7 +19,7 @@ const Hero = () => {
     
   return (
 
-    <section className='bg-sky-100 h-[90vh] w-full flex flex-col items-center justify-center'>
+    <section className='bg-sky-100 h-[90vh] w-full flex flex-col items-center justify-center max-w-[100vw] overflow-hidden'>
     
       <h1 className='text-2xl w-2/3 md:w-2/4 lg:w-fit justify-center items-center'>Building Scalable, High-Performance Web Applications with <span className='text-sky-500'>MERN & Next.js</span> </h1>
       <p className='w-2/3 md:w-2/4 lg:2/5 py-4'>I&apos;m Satish Raja Dhulipala, a MERN Stack Developer specializing in React, Next.js, and Node.js. With expertise in full-stack development, performance optimization, and cloud deployment, I create fast, scalable, and user-friendly web applications.</p>

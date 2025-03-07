@@ -44,7 +44,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="py-16 px-6 md:px-20 bg-gray-100">
+    <section className="py-16 px-6 md:px-20 bg-gray-100 max-w-[100vw] overflow-hidden">
       <h1 className="text-3xl font-bold text-center mb-8 text-sky-600">
         Projects
       </h1>

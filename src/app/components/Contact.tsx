@@ -9,7 +9,7 @@ import contact from "../assets/contact.jpg";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-6 md:px-20 bg-sky-100 sm:h-[100vh] md:h-[80vh] flex items-center">
+    <section id="contact" className="py-16 px-6 md:px-20 bg-sky-100 sm:h-[100vh] md:h-[80vh] flex items-center max-w-[100vw] overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full max-w-6xl mx-auto">
        
         <div className="flex flex-col items-center md:items-center text-center md:text-left">

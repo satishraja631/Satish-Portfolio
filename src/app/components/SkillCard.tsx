@@ -28,7 +28,7 @@ const SkillCard = ({ skill }: { skill: { name: string; proficiency: number } }) 
 
 const Skills = () => {
   return (
-    <section className="py-10 px-1">
+    <section className="py-10 px-1 max-w-[100vw] overflow-hidden">
       <p className="font-bold text-left">Skills:</p>
       <div className="flex flex-wrap gap-4 py-4">
        

@@ -5,7 +5,7 @@ import Skills from "./SkillCard";
 export default function About(){
 
     return(
-        <section className="grid grid-cols-1 mt-[100px] md:grid-cols-[2fr_3fr] sm:h-fit md:h-[90vh] items-center gap-8 px-8 md:px-16  md:mt-[50px]">
+        <section className="grid grid-cols-1 mt-[100px] md:grid-cols-[2fr_3fr] sm:h-fit md:h-[90vh] items-center gap-8 px-8 md:px-16  md:mt-[50px] max-w-[100vw] overflow-hidden">
             <div className="flex justify-center relative">
             <Image src={Avatar} alt="User Avatar" width={250} height={250} className="bg-sky-200 rounded-full "/>
             <div className="absolute bottom-[-20px] bg-white w-[220px] h-[50px] rounded-lg shadow-md flex flex-col justify-center items-center border border-gray-200">
