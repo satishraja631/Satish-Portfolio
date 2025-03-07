@@ -94,9 +94,9 @@ const observer = new IntersectionObserver(
 
  
   return (
-    <header className={`fixed top-0 left-0 w-full flex items-center px-6 md:px-16 py-4 z-50 ${
+    <header className={`fixed top-0 left-0 w-full flex items-center px-6 md:px-16 py-4 z-50  ${
         isScrolled ? "bg-sky-200 shadow-md" : "bg-transparent"
-      } max-w-[100vw] overflow-hidden`}>
+      } `}>
       <ul className='hidden md:flex flex-1 justify-center gap-6 md:gap-16 '>
         {headers.map((header,index)=>(
             <li key={index} className={ `pb-1 cursor-pointer transition-all duration-300 ${index===activeHeaderIndex?"text-sky-500 border-b-3  border-sky-500":""}`} onClick={() => scrollToSection(index)}>
@@ -113,7 +113,7 @@ const observer = new IntersectionObserver(
       <button className='md:hidden text-sky-500 ml-auto mr-8' onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <FiX size={28} /> : <FiMenu size={28} />}</button>
 
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md p-4 flex flex-col items-center space-y-4">
+        <div className="absolute top-full left-0 w-full bg-white shadow-md py-4 flex flex-col items-center space-y-4 ">
           {headers.map((header, index) => (
             <button
               key={index}
