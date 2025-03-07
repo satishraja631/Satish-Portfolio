@@ -50,7 +50,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="absolute bottom-15 md:bottom-20 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white shadow-lg rounded-2xl w-4/5 md:w-2/3 lg:w-1/2 p-6 flex flex-row gap-6 justify-center"
+        className="absolute bottom-10 md:bottom-20 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white shadow-lg rounded-2xl w-4/5 md:w-2/3 lg:w-1/2 p-6 flex flex-row gap-6 justify-center"
       >
         <span className='text-sky-500 flex flex-row gap-4'>
             {<CiLaptop size="23"/> }
